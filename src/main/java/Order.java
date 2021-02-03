@@ -1,3 +1,5 @@
+import java.time.LocalDateTime;
+
 public class Order {
 
     //attributes
@@ -15,16 +17,20 @@ public class Order {
         return orderNr;
     }
 
-//        public void addSeatReservation(MovieTicket ticket){
-//
-//        }
+    public void addSeatReservation(MovieTicket ticket){
 
-//        public double calculatePrice(){
-//            return;
-//        }
+    }
 
-//    public void export(TicketExportFormat exportFormat){
-//
-//    }
+    public double calculatePrice(){
+        //TODO: Get base price for ticket
+        //TODO: Get screening date & day of week
+        //TODO: Check if premium ticket
+
+        return 69;
+    }
+
+    public void export(TicketExportFormat exportFormat){
+
+    }
 
 }
